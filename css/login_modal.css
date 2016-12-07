@@ -1,0 +1,56 @@
+#h1{
+	font-size: 72px;
+	margin: 20px;
+}
+#h5{
+	margin: 16px;
+}
+hr{
+	margin-left: -16px;
+	width: 100%;
+	text-align: center;
+	margin-top: 16px;
+}
+#form{
+	margin: 16px;
+	width: 100%;
+	text-align: center;
+	font-family: "Ubuntu";
+}
+#textbox{
+	margin: 10px;
+	padding: 10px;
+	width: 50%;
+	border: 1px #000 solid;
+}
+	#textbox:hover{
+	border: 1px #999999 solid;
+	background-color: #FFFDE7;
+	}
+#login_button{
+	margin: 10px;
+	padding: 10px;
+	background-color: #800000;
+	color: #ffffff;
+	font-size: 25px;
+	transition: padding 0.5s;
+	border: none;
+	box-shadow: 1px 1px 3px 2px black;
+}
+	#login_button:hover{
+		background-color: rgba(128,0,0,0.8);
+	}
+
+#register_button{
+	margin: 5px;
+	padding: 5px;
+	background-color: #33691E;
+	color: #ffffff;
+	text-decoration: none;
+	transition: padding 0.5s;
+	border: none;
+	box-shadow: 1px 1px 3px 2px black;
+}
+		#register_button:hover{
+			opacity: 0.8 	;
+		}
